@@ -1,0 +1,9 @@
+echo "$1"
+case "$1" in
+    https://m.youtube.com/watch*)
+        videoid_begin=${1##*v=}
+        videoid=${videoid_begin%%&*}
+        termux-open-url https://looptube.io/?videoId=$videoid
+        ;;
+esac
+sleep 3
