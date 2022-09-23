@@ -1,7 +1,7 @@
 # AndroidSiteExtension
 Add extra functionality to any URL in Android using Termux's URL handler
 
-If you install [Termux](), you can find it in the Share menu.
+If you install [Termux](https://play.google.com/store/apps/details?id=com.termux), you can find it in the Share menu.
 Sharing a webpage to it runs the shellscript `bin/termux-url-opener`, with the URL as argument 1.
 
 You can do whatever you want with this URL in this script.
